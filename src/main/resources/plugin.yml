@@ -1,0 +1,15 @@
+name: AzureEnder
+version: 1.0.0
+api-version: 1.18
+description: Allow players access to their Enderchest anywhere by cost of exp
+author: Azuremoon
+main: xyz.azuremoon.AzureEnder
+commands:
+  azureender:
+    description: Allows player to open a remote enderchest in inv
+    usage: /azureender
+    permission: EnderPoo.use
+
+permissions:
+    EnderPoo.use:
+      default: true

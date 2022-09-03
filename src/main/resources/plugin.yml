@@ -4,12 +4,34 @@ api-version: 1.18
 description: Allow players access to their Enderchest anywhere by cost of exp
 author: Azuremoon
 main: xyz.azuremoon.AzureEnder
+
 commands:
-  azureender:
+#  azureender:
+#    description: Allows player to open a remote enderchest in inv
+#    usage: /azureender
+#    permission: EnderPoo.use
+
+  aec:
     description: Allows player to open a remote enderchest in inv
-    usage: /azureender
+    usage: /aec
     permission: EnderPoo.use
+
+  aecadmin:
+    description: Allows admin to only view another players Enderchest
+    usage: /aecadmin
+    permission: EnderPoo.admin
+
+  aecop:
+    description: Allows OP to view/edit a players Enderchest
+    usage: /aecop
+    permission: EnderPoo.op
 
 permissions:
     EnderPoo.use:
       default: true
+
+    EnderPoo.admin:
+      default: true
+
+    EnderPoo.op:
+      default: op

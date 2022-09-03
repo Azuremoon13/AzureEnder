@@ -1,5 +1,5 @@
-open_cost = 5
+openCost: 7
 
-stack_cost = 1
+stackCost: 5
 
-item_cost = 1
+itemCost: 1

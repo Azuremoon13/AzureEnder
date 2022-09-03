@@ -16,8 +16,9 @@ class AzureEnder : JavaPlugin() {
 
     override fun onEnable() {
         instance = this
-        logger.info("Hello, World!")
+        logger.info("Azure says Hello star-shine! :3")
         saveDefaultConfig()
+        server.pluginManager.registerEvents(AecEventListener(),this)
     }
 
     override fun onDisable() {

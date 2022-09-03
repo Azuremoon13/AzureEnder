@@ -1,11 +1,11 @@
 package xyz.azuremoon
+import xyz.azuremoon.manager.CommandController
 
 import org.bukkit.command.Command
 import org.bukkit.command.CommandSender
-import xyz.azuremoon.manager.CommandController
 import org.bukkit.plugin.java.JavaPlugin
 
-@Suppress("unused") // Class is loaded by plugin manager
+@Suppress("unused")
 class AzureEnder : JavaPlugin() {
 
     companion object{

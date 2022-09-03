@@ -6,11 +6,6 @@ author: Azuremoon
 main: xyz.azuremoon.AzureEnder
 
 commands:
-#  azureender:
-#    description: Allows player to open a remote enderchest in inv
-#    usage: /azureender
-#    permission: EnderPoo.use
-
   aec:
     description: Allows player to open a remote enderchest in inv
     usage: /aec
@@ -21,17 +16,17 @@ commands:
     usage: /aecadmin
     permission: EnderPoo.admin
 
-  aecop:
-    description: Allows OP to view/edit a players Enderchest
-    usage: /aecop
-    permission: EnderPoo.op
+#  aecop:
+#    description: Allows OP to view/edit a players Enderchest
+#    usage: /aecop
+#    permission: EnderPoo.op
 
 permissions:
     EnderPoo.use:
       default: true
 
     EnderPoo.admin:
-      default: true
+      default: false
 
     EnderPoo.op:
       default: op

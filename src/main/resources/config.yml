@@ -1,5 +1,5 @@
-openCost: 7
+openCost: 5
 
-stackCost: 5
+stackCost: 3
 
-itemCost: 1
+#itemCost: 1
